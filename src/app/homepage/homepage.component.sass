@@ -23,9 +23,26 @@
   opacity: 0
   transition: opacity 0.3s ease
 
+.main-text 
+  font-size: 175px
+  font-weight: bold
+  background: -webkit-linear-gradient(#d9ff00, #ff0000)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  transition: transform 0.3s ease, background 0.3s ease  
+  line-height: 0.9
+
 .text 
-    z-index: 2
-    color: blue
+  background: -webkit-linear-gradient(#0011ff, #00b800)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  transition: transform 0.3s ease, background 0.3s ease
+  &:hover
+    transform: scale(1.2)
+  &:active
+    background: -webkit-linear-gradient(#0011ff, #b00b5b)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
 
 .border-gradient:hover 
   color: black
