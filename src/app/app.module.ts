@@ -8,6 +8,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { ParallaxComponent } from './parallax/parallax/parallax.component';
+import { ElectricScooterComponent } from './electric-scooter/electric-scooter.component';
+import { BroncoComponent } from './bronco/bronco.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
     NavbarComponent,
     PortfolioComponent,
     ResumeComponent,
-    AboutmeComponent
+    AboutmeComponent,
+    ParallaxComponent,
+    ElectricScooterComponent,
+    BroncoComponent
   ],
   imports: [
     BrowserModule,
